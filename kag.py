@@ -1,8 +1,6 @@
-from sklearn.ensemble import RandomForestClassifier
 from numpy import genfromtxt, savetxt
- dataset = genfromtxt('tt.csv', delimiter = ',', dtype = 'none')
-
-
+ 
+dataset = genfromtxt('tt.csv', delimiter = ',')
   for row in dataset:
     print (row)
 
